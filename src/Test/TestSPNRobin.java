@@ -24,7 +24,7 @@ public class TestSPNRobin {
 		admP1.agregarProceso("P2", 1, 2, 3, 2, Prioridad.Media);
 		admP1.agregarProceso("P3", 2, 5, 2, 4, Prioridad.Alta);
 		admP1.agregarProceso("P4", 3, 1, 5, 3, Prioridad.Alta);
-		admP1.agregarProceso("P5", 3, 1, 3, 7, Prioridad.Media);
+		admP1.agregarProceso("P5", 3, 7, 1, 2, Prioridad.Media);
 		admP1.agregarProceso("P6", 4, 1, 3, 7, Prioridad.Media);
 		
 		System.out.println("----------- Planificador Shortest Process Next Quantum= 1-----------");
